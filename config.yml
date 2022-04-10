@@ -1,0 +1,63 @@
+Config:
+  Prefix: '&bReal&9Scoreboard &7| &r'
+  Reloaded: '&fThe config has been &areloaded&f.'
+  Messages:
+    Scoreboard-Toggle:
+      'ON': '&fScoreboard turned &aON&f.'
+      'OFF': '&fScoreboard turned &cOFF&f.'
+  Animations:
+    Rainbow-Delay: 10
+    Title-Delay: 20
+  Scoreboard-Refresh: 10
+  Disabled-Worlds:
+  - testWorld
+  - ExampleWorld2
+  Scoreboard:
+    world:
+      Lines:
+      - '&c&l====================='
+      - '%blank%'
+      - '&aNama &8: &r%player_displayname%'
+      - '&aDuid &8: &e%vault_eco_balance_formatted%'
+      - '&aPing &8: &e%player_ping%'
+      - '%blank%'
+      - '&aLokasi &8: &e%x% &e%y% &e%z%'
+      - '%blank%'
+      - '&e%time% &e%day%'
+      - '&aPlayer &8: &e%online%/%maxplayers%'
+      - '%blank%'
+      - '&c&l====================='
+      Title:
+      - '%RainbowColor_SURVIVAL%'
+      - '%RainbowColor_SURVIVAL%'
+    Funland:
+      Lines:
+      - '%blank%'
+      - 'Halo Selamat Datang di World %world% '
+      - 'Selamat Bermain'
+      Title:
+      - '%RainbowColor_FUNLAND%'
+      - '%RainbowColor_FUNLAND%'
+    test:
+      Lines:
+      - '%blank%'
+      - ' &7Hello, &f%playername%'
+      - ' &fWelcome to the server!'
+      - '%blank%'
+      - ' &fYou are on: #&f%world%#'
+      - '%blank%'
+      Title:
+      - '&aFlat &bWorld'
+    world3:
+      Lines:
+      - '&8%rainbow%&l&m------------------------'
+      - '&7Third scoreboard'
+      - '%rainbow%&l&m------------------------'
+      Title:
+      - '&6This is the Third scoreboard.'
+Version: 3
+PlayerData:
+  milos6996:
+    Scoreboard:
+      Status:
+        'ON': true
